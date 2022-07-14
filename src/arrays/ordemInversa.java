@@ -13,7 +13,7 @@ public class ordemInversa {
 
         System.out.println("Vetor inverso: ");
         for(int i = vetor.length - 1; i >= 0; i--){
-            System.out.println(vetor[i]);
+            System.out.println(vetor[i] + " ");
         }
     }
 }
