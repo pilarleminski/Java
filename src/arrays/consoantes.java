@@ -30,12 +30,14 @@ public class consoantes {
             count++;
         }while(count < consoantes.length);
 
-        System.out.println("Consoantes: ");
+        System.out.print("Consoantes: ");
         for (String consoante : consoantes) {
             if(consoante != null) {
-                System.out.println(consoante);
+                System.out.print(consoante);
             }
         }
+        System.out.println();
+        System.out.print("Quantidade de consoantes:");
         System.out.println(quantidadeConsoantes);
     }
 }
